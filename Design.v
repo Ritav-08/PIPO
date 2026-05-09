@@ -1,8 +1,8 @@
 module PIPO(
-   input [3:0]din_i, 
-   input load_i, 
-   input clk_i, 
-   input rst_i, 
+   input      [3:0]din_i, 
+   input           load_i, 
+   input           clk_i, 
+   input           rst_i, 
    output reg [3:0]dout_o
 );
 
